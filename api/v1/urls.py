@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.urls import path
 
-from metromind_backend import config
+from backend_proj import config
 
 
 def index(request):

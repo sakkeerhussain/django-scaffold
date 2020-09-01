@@ -1,7 +1,7 @@
 from django.http import JsonResponse
 from django.views.generic import View
 
-from metromind_backend import config
+from backend_proj import config
 
 
 class WelcomeView(View):
