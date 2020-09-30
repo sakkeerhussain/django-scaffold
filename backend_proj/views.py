@@ -10,7 +10,7 @@ class WelcomeView(View):
     def get(request, *args, **kwargs):
         resp = {
             'status': 'ok',
-            'message': 'Welcome to MetroMind backend'
+            'message': 'Welcome to testing backend'
         }
         return JsonResponse(resp)
 
